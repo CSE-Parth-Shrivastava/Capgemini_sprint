@@ -1,0 +1,13 @@
+com\finflow\admin\repository\DecisionRepositoryTest$FindByDecision.class
+com\finflow\admin\controller\AdminControllerTest$GetDecisionEndpoint.class
+com\finflow\admin\repository\DecisionRepositoryTest$FindByApplicationId.class
+com\finflow\admin\controller\AdminControllerTest.class
+com\finflow\admin\controller\AdminControllerTest$ReportsEndpoint.class
+com\finflow\admin\repository\DecisionRepositoryTest$CountByDecision.class
+com\finflow\admin\repository\DecisionRepositoryTest.class
+com\finflow\admin\repository\DecisionRepositoryTest$DeleteAll.class
+com\finflow\admin\repository\DecisionRepositoryTest$PrePersist.class
+com\finflow\admin\controller\AdminControllerTest$DecisionsEndpoint.class
+com\finflow\admin\controller\AdminControllerTest$MakeDecisionEndpoint.class
+com\finflow\admin\repository\DecisionRepositoryTest$FindAllAndCount.class
+com\finflow\admin\service\AdminServiceTest.class

@@ -1,0 +1,12 @@
+com\finflow\document\controller\DocumentControllerTest$MyDocumentsEndpoint.class
+com\finflow\document\controller\DocumentControllerTest$VerifyEndpoint.class
+com\finflow\document\repository\DocumentRepositoryTest$PrePersist.class
+com\finflow\document\controller\DocumentControllerTest$UploadEndpoint.class
+com\finflow\document\controller\DocumentControllerTest.class
+com\finflow\document\repository\DocumentRepositoryTest$FindByStatus.class
+com\finflow\document\controller\DocumentControllerTest$PendingDocumentsEndpoint.class
+com\finflow\document\controller\DocumentControllerTest$GetByApplicationEndpoint.class
+com\finflow\document\service\DocumentServiceTest.class
+com\finflow\document\repository\DocumentRepositoryTest.class
+com\finflow\document\repository\DocumentRepositoryTest$FindByApplicantId.class
+com\finflow\document\repository\DocumentRepositoryTest$FindByApplicationId.class

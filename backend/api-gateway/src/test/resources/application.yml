@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    config:
+      enabled: false
+    gateway:
+      routes: []
+  config:
+    import: optional:configserver:
+eureka:
+  client:
+    enabled: false
+
+jwt:
+  secret: test-secret-key-which-is-at-least-32-characters-long
+  expiration: 86400000

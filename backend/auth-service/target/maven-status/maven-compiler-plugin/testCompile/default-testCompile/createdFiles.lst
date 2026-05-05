@@ -1,0 +1,9 @@
+com\finflow\auth\repository\UserRepositoryTest$ExistsByEmail.class
+com\finflow\auth\service\AuthServiceTest.class
+com\finflow\auth\repository\UserRepositoryTest$FindAll.class
+com\finflow\auth\controller\AuthControllerTest.class
+com\finflow\auth\repository\UserRepositoryTest$ActiveFlag.class
+com\finflow\auth\repository\UserRepositoryTest.class
+com\finflow\auth\repository\UserRepositoryTest$PrePersist.class
+com\finflow\auth\repository\UserRepositoryTest$FindByEmail.class
+com\finflow\auth\service\JwtServiceTest.class

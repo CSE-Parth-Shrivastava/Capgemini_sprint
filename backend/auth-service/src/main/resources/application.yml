@@ -1,0 +1,39 @@
+spring:
+  application:
+    name: auth-service
+  config:
+    import: "optional:configserver:http://localhost:8888"
+
+server:
+  port: 8081
+
+# ── Zipkin / Distributed Tracing ──────────────────────────────────
+management:
+  tracing:
+    sampling:
+      probability: 1.0   # 100% in dev; lower to 0.1 in prod
+  zipkin:
+    tracing:
+      endpoint: http://localhost:9411/api/v2/spans
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+  endpoint:
+    health:
+      show-details: always
+
+logging:
+  pattern:
+    level: "%5p [auth-service,%X{traceId:-},%X{spanId:-}]"
+
+# ── Eureka ────────────────────────────────────────────────────────
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+---
+# Docker profile — activated when SPRING_PROFILES_ACTIVE=docker
